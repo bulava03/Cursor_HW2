@@ -23,4 +23,4 @@ FROM   pilots
        INNER JOIN planes
                ON models LIKE Concat('%', planes.model, '%')
 WHERE  NAME LIKE 'Bill'
-        OR NAME LIKE 'Roman' 
+        OR NAME LIKE 'Roman' ;
